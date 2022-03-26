@@ -17,7 +17,7 @@ module.exports = {
     rules: [
       {
         // 이스케이프 문자(\)는 기능이 정해진 기호(.)을 쓸 때 사용합니다
-        test: /\.css$/,
+        test: /\.s?css$/,
         use: [
           'style-loader',
           'css-loader'
